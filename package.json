@@ -1,0 +1,16 @@
+{
+  "name": "strict-json-object-schema",
+  "version": "0.0.0",
+  "description": "function to create JSON schemas for objects with all properties required",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/strict-json-object-schema.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "^6.5.2",
+    "defence-cli": "^2.0.1",
+    "replace-require-self": "^1.1.1"
+  },
+  "scripts": {
+    "test": "defence -i javascript README.md | replace-require-self | node"
+  }
+}
