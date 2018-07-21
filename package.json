@@ -1,6 +1,6 @@
 {
   "name": "strict-json-object-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "shortcut to create JSON Schemas for objects with all properties required, and no additional properties",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/strict-json-object-schema.js",
